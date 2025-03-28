@@ -205,6 +205,7 @@ Este archivo solo define `new_func1()`, que tiene:
 
 
 Se puede notar que `test_gprof_new.c` tiene un menor tiempo de ejecución en comparación con `test_gprof.c`, lo que era esperado debido a la menor cantidad de iteraciones en el bucle de `new_func1()`. La optimización de bucles es clave para mejorar el rendimiento.
+Las experiencias se adjuntan en profiling.md 
 
 
 ### Conclusion Profiling:
@@ -241,10 +242,14 @@ El objetivo fue observar si el aumento de la frecuencia de la CPU produce una re
 Los resultados obtenidos se muestran en la siguiente imagen:
 
 
-![ESP32 Simulación](image.png)
+![alt text](image.png)
 
 
-Ademas de utilizar el simulador, pudimos tener acceso a una ESP32 fisica. Se testeo con el mismo codigo utilizado en el simulador y se noto una gran diferencia con respecto a los tiempos obtenidos entre uno y otro, siendo la placa mucho mas veloz que el simulador
+Ademas de utilizar el simulador, pudimos tener acceso a una ESP32 fisica. Se testeo con el mismo codigo utilizado en el simulador y se noto una gran diferencia con respecto a los tiempos obtenidos entre uno y otro, siendo la placa mucho mas veloz que el simulador 
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 
 ---
