@@ -205,7 +205,9 @@ Este archivo solo define `new_func1()`, que tiene:
 
 
 Se puede notar que `test_gprof_new.c` tiene un menor tiempo de ejecución en comparación con `test_gprof.c`, lo que era esperado debido a la menor cantidad de iteraciones en el bucle de `new_func1()`. La optimización de bucles es clave para mejorar el rendimiento.
-Las experiencias se adjuntan en profiling.md 
+Las experiencias se adjuntan en [profiling.md](profiling.md)
+
+
 
 
 ### Conclusion Profiling:
